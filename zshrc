@@ -101,3 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # google suggestion
 
 alias jpgcompress="time parallel -j+0 --eta convert {} -sampling-factor 4:2:0 -quality 85 -interlace JPEG -colorspace sRGB {} ::: *.jpg"
+alias see="xdg-open"
